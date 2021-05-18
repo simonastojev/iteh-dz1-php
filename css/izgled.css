@@ -1,0 +1,220 @@
+* {
+    box-sizing: unset;
+  }
+
+  html, body{
+    padding: 2;
+    font-family: Arial, Geneva, Arial, sans-serif;
+    /*Georgia, 'Helvetica', Times, serif;*/
+    overflow-x: hidden;
+    font-size: medium;
+  }
+
+  a.column_sort {
+  }
+
+  body{
+    z-index: -5;
+  }
+
+  #uni-logos-wrapper{
+    text-align: left;
+    margin: 2% 0 4% 0;
+    padding: 0 3%;
+  }
+
+  #uni-logos-wrapper>img{
+    display: flex;
+  }
+
+  .form-container{
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 15px;
+    padding-top: 30px;
+    padding-left: 80px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(139, 209, 209, 0.945);
+  }
+
+  .btn-round-custom,
+  .btn-round-custom:focus,
+  .btn-round-custom:active{
+    padding: 10px 35px;
+    border-radius: 85%;
+    background-color: rgba(44, 31, 221, 0.897);
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .5s;
+  }
+
+  .btn-round-custom:hover{
+    background-color: rgb(241, 168, 255);
+    color: rgb(22, 88, 88);
+    border: 1cm;
+    text-decoration: none;
+    transition: all .8s;
+  }
+
+  #welcome-div{
+    background-color: rgb(248, 223, 0);
+    padding: 2% 2%;
+    text-align: center;
+  }
+
+  #welcome-h1{
+    color:#f5f2f2;
+  }
+
+  #baloni-img {
+    background-image: url("../img/logo-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: left;
+    margin-left: 3px;
+    padding: left;
+    width: 250px;
+    position: relative;
+  }
+  
+  #background-img{
+    content: " ";
+    position: fixed;
+    top: 0;
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+  }
+  
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+label{
+    color: rgb(22, 88, 88);
+    font-size:20px;
+}
+
+#btn_find{
+    margin-left: 20px;
+}
+
+.table{
+    color: rgb(22, 88, 88);
+    font-size: 17px;
+    text-align: center; 
+    margin-left: auto 0; 
+    margin-right: auto; 
+    width: 100px;
+
+}
+table>tbody>tr:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(107, 18, 73);
+    font-size: 17px;
+}
+
+.icon-images{
+  margin: 2px;
+}
+
+.icon-images:hover{
+  padding: 3px;
+}
+
+#sort>a{
+  padding: 5px;
+  border: solid 1px  rgb(35, 20, 68);
+  background-color: 797979;
+  color: rgb(35, 20, 68);
+  margin-left: 5px;
+  margin-right:5px;
+  border-radius: 0%;
+  font-size: 22px;
+}
+
+#sort>a:hover{
+  color: rgb(35, 20, 68);
+  text-decoration: none;
+  padding: 7px;
+}
+
+/*Navigacioni meni*/
+  
+  .topnav {
+    overflow: visible;
+    background-color:rgb(233, 38, 38);
+    justify-content: center;
+    margin-left:100px;
+    border:5%;
+    margin-right: 100px;
+    display: flex;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover,
+  .topnav a:active {
+    background-color: #ddd;
+    color:purple;
+    margin-left: 10px;
+    
+  }
+  
+  .active {
+    background-color: #f0a7e0;
+    color: rgb(206, 171, 171);
+  }
+  
+  .topnav .icon {
+    display: flexbox;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: left;
+      display: initial;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: fixed;}
+    .topnav.responsive .icon {
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: unset;
+      text-align: left;
+    }
+  }
+
+.row{
+    margin: 40;
+}
+@media screen and (min-width: 120px){
+    #uni-logos-wrapper{
+        padding:  0; 
+      }
+}
