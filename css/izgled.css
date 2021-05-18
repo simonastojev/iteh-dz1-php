@@ -4,7 +4,7 @@
 
   html, body{
     padding: 2;
-    font-family: Arial, Geneva, Arial, sans-serif;
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
     /*Georgia, 'Helvetica', Times, serif;*/
     overflow-x: hidden;
     font-size: medium;
@@ -92,7 +92,6 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-
   }
   
 .d-flex {
@@ -101,7 +100,7 @@
 }
 
 label{
-    color: rgb(22, 88, 88);
+    color: rgb(23, 88, 88);
     font-size:20px;
 }
 
@@ -110,17 +109,20 @@ label{
 }
 
 .table{
-    color: rgb(22, 88, 88);
+    color: steelblue;
     font-size: 17px;
     text-align: center; 
     margin-left: auto 0; 
     margin-right: auto; 
     width: 100px;
+}
 
+table.responsive{
+  color:thistle;
 }
 table>tbody>tr:hover{
     background-color: rgb(255, 255, 255) !important;
-    color: rgb(107, 18, 73);
+    color: rgb(23, 88, 88);
     font-size: 17px;
 }
 
@@ -131,12 +133,30 @@ table>tbody>tr:hover{
 .icon-images:hover{
   padding: 3px;
 }
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+#ukras {
+  background-image: url("../img/ukras.jpg");
+  height: 900px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  margin-top: 30px;
+margin-bottom: 300px;
+  margin-left: 500px;
+  margin-right: 500px;
+  position: fixed;
+
+}
 
 #sort>a{
   padding: 5px;
-  border: solid 1px  rgb(35, 20, 68);
+  border: solid 1px  cadetblue;
   background-color: 797979;
-  color: rgb(35, 20, 68);
+  color: darkorchid;
   margin-left: 5px;
   margin-right:5px;
   border-radius: 0%;
@@ -144,7 +164,7 @@ table>tbody>tr:hover{
 }
 
 #sort>a:hover{
-  color: rgb(35, 20, 68);
+  color: brown;
   text-decoration: none;
   padding: 7px;
 }
@@ -185,21 +205,21 @@ table>tbody>tr:hover{
   }
   
   .topnav .icon {
-    display: flexbox;
+    display: flex;
   }
   
   @media screen and (max-width: 600px) {
     .topnav a {display: none;}
     .topnav a.icon {
       float: left;
-      display: initial;
+      display: grid;
     }
   }
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: fixed;}
     .topnav.responsive .icon {
-      position: relative;
+      position: fixed;
       right: 0;
       top: 0;
     }

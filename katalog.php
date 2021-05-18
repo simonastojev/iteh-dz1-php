@@ -36,7 +36,7 @@ $porudzbine = Porudzbina::vratiSve($mysqli,$order);
         <div class="col-md-8">
 
                 <div class="table-responsive" id="tabela-porudzbina">
-                    <table class="table" >
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th><a class="column_sort" id="naziv" data-order="desc" href="#">Naziv porudžbine</a></th>
