@@ -10,9 +10,6 @@
     font-size: medium;
   }
 
-  a.column_sort {
-  }
-
   body{
     z-index: -5;
   }
@@ -41,7 +38,7 @@
   .btn-round-custom,
   .btn-round-custom:focus,
   .btn-round-custom:active{
-    padding: 10px 35px;
+    padding: 12px 60px;
     border-radius: 85%;
     background-color: rgba(44, 31, 221, 0.897);
     color: white;
@@ -49,6 +46,8 @@
     text-decoration: none;
     font-size: 20px;
     transition: all .5s;
+    margin: 7px 7px;
+    padding: 12px;
   }
 
   .btn-round-custom:hover{
@@ -63,10 +62,16 @@
     background-color: rgb(248, 223, 0);
     padding: 2% 2%;
     text-align: center;
+    display: -ms-inline-grid;
   }
 
   #welcome-h1{
     color:#f5f2f2;
+  }
+  .col-md-8{
+    padding: 15px 15px;
+    top: 3px;
+    border-spacing: 3px;
   }
 
   #baloni-img {
@@ -137,19 +142,17 @@ table>tbody>tr:hover{
   width: 100%;
   height: 400px;
   background-color: grey;
+  margin-right: 200px;
 }
 
 #ukras {
   background-image: url("../img/ukras.jpg");
-  height: 900px;
-  background-repeat: no-repeat;
-  justify-content: center;
-  margin-top: 30px;
-margin-bottom: 300px;
+  height: 400px;
+  width: 300px;
   margin-left: 500px;
-  margin-right: 500px;
-  position: fixed;
-
+  margin-right: 200px;
+  justify-content: right;
+  align-items: right;
 }
 
 #sort>a{
@@ -172,13 +175,14 @@ margin-bottom: 300px;
 /*Navigacioni meni*/
   
   .topnav {
-    overflow: visible;
     background-color:rgb(233, 38, 38);
     justify-content: center;
-    margin-left:100px;
-    border:5%;
+    margin-left: 100px;
     margin-right: 100px;
-    display: flex;
+    border: 5%;
+    position: fixed;
+    display: flex;  
+    overflow: hidden;
   }
   
   .topnav a {
@@ -188,6 +192,7 @@ margin-bottom: 300px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.3s;
     font-size: 20px;
   }
   
@@ -196,7 +201,7 @@ margin-bottom: 300px;
     background-color: #ddd;
     color:purple;
     margin-left: 10px;
-    
+    display: block;
   }
   
   .active {
@@ -205,36 +210,40 @@ margin-bottom: 300px;
   }
   
   .topnav .icon {
-    display: flex;
+    display: none;
   }
   
-  @media screen and (max-width: 600px) {
-    .topnav a {display: none;}
+  @media screen and (max-width: 700px) {
+    .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: left;
-      display: grid;
+      display: block;
     }
   }
   
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: fixed;}
+  @media screen and (max-width: 700px) {
+    .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
-      position: fixed;
+      position: absolute;
       right: 0;
       top: 0;
     }
+    
     .topnav.responsive a {
       float: none;
-      display: unset;
-      text-align: left;
+      text-align: center;
+      display: block;
     }
   }
+    .col-12{
+      margin-left: 400px;
+      margin-right: -100px;
+  }
 
-.row{
-    margin: 40;
-}
+  
 @media screen and (min-width: 120px){
     #uni-logos-wrapper{
-        padding:  0; 
+        padding: 10px; 
+      
       }
 }

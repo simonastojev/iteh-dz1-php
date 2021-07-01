@@ -29,7 +29,6 @@
            <a href="katalog.php" class="btn-round-custom">Prikaz porudžbina</a>
            <a href="pretraga.php" class="btn-round-custom">Pretraga porudžbine</a>
            <a href="kontakt.php" class="btn-round-custom">Kontakt</a>
-
         </div>
         <div class="col-md-2"></div>
     </div>

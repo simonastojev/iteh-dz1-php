@@ -8,7 +8,6 @@ function myFunction() {
   }
 }
 
-
 function validateForm() {
   var naziv = document.forms["unosPorudzbine"]["naziv"].value;
   var cena = document.forms["unosPorudzbine"]["cena"].value;

@@ -17,8 +17,12 @@
   
     <div id="welcome-div" class="row">
       <div>
-        <a href="http://www.instagram.com/balonibeograd" class="btn-round-custom">Posetite našu Instagram stranicu!</a>
+
+        <br></br>
+        <br></br>
         
+
+        <a href="http://www.instagram.com/balonibeograd" class="btn-round-custom">Posetite našu Instagram stranicu!</a>
         <div class="col-md-5"></div>
         <h1>Kako doći do nas?</h1>
         <div id="map"> </div>
@@ -28,6 +32,8 @@
     </div>
 
     <div class="row">
+    <br></br>
+
         <div id="ukras" class="col-20">
             <img id="uni-logos-img" src="img/ukras.jpg" alt="">
         </div>

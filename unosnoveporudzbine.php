@@ -67,7 +67,7 @@ if(isset( $_POST['dodaj'] )){
                 </div>
                 <div class="form-group">
                     <label for="cena">Cena porudžbine:</label>
-                    <input type="text" class="form-control" name="cena" id="cena" placeholder="Unesite cenu porudbine">
+                    <input type="text" class="form-control" name="cena" id="cena" placeholder="Unesite cenu porudžbine">
 
                 </div>
                 <div class="form-group">
