@@ -23,7 +23,7 @@ class Porudzbina {
 	public function ubaciPorudzbinu ($data, $db){
 		
 		if ($data['naziv'] === '' || $data['cena'] === '' || $data['tip_porudzbine'] === ''|| $data['datum_porucivanja'] === ''){
-		$this-> poruka ='Morate popuniti sva polja!!!';
+		$this -> poruka = 'Morate popuniti sva polja!!!';
 		
 		} else{
 		

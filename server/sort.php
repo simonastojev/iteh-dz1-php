@@ -38,9 +38,9 @@
     $output = $output.'<td>'.$por->vrsta->naziv_vrste.'</td>';
     $output = $output.'<td><a href="izmenaporudzbine.php?id='.$por->id_porudzbine.'">
     <img class="icon-images" src="img/refresh.png" width="20px" height="20px"/></a>
-     <a href="brisanjeporudzbine.php?id='.$por->id_porudzbine.'"> 
-     <img class="icon-images" src="img/trash.png" width="20px" height="20px" />
-     </a></td>';
+    <a href="brisanjeporudzbine.php?id='.$por->id_porudzbine.'"> 
+    <img class="icon-images" src="img/trash.png" width="20px" height="20px" />
+    </a></td>';
     $output = $output.'</tr>';
  }
 
