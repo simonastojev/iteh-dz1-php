@@ -25,8 +25,8 @@
         <th><a class="column_sort" id="cena" data-order="'.$order.'" href="#">Cena</a></th>
         <th><a class="column_sort" id="tip_porudzbine" data-order="'.$order.'" href="#">Tip porudžbine</a></th>
         <th><a class="column_sort" id="datum_porucivanja" data-order="'.$order.'" href="#">Datum poručivanja</a></th>
-        <th>Vrsta predstave</th>
-        <th>Opcije</th>     
+        <th>Status porudžbine</th>
+        <th>Izmena/brisanje porudžbine</th>
       </tr>  
  ';  
  foreach($porudzbina as $por){
